@@ -1,0 +1,110 @@
+body {
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    font-family : 'Raleway', sans-serif ; 
+    font-size: 16px;
+    line-height: 30px;
+}
+
+h1,h2,h3 {
+	color: #553e4e;
+	font-weight: 100; 
+	letter-spacing: 3px;
+	font-family: 'Spectral SC', serif;
+}
+
+h3 { 
+	color: #B7657B;
+	font-weight: bold; 
+}
+
+a {
+	text-decoration: none; 
+	color: #553e4e; }
+
+a:hover { 
+	color: darkpink; }
+
+
+
+/*custom design with class */
+
+.container {
+	width: 700px; 
+	margin: 40px auto; 
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;  
+	}
+ }
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px; 
+	}
+ }
+
+.card-white { 
+	background: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 20px;
+	margin: 20px;
+	text-align: center;
+}
+
+.img-circle { 
+	border-radius: 50%;
+	border-image-width: 200px;
+}
+
+.btn-pink { 
+	background-color: #B7657B;
+	color: white; 
+	padding: 15px 20px; 
+	border-radius: 4px;
+ }
+
+.btn-pink:hover { 
+ 	background-color: #B7657B;
+	color: #553e4e; 
+}
+
+.list-inline { 
+	list-style: none; 
+	padding-left: 0px;
+ }
+
+ .list-inline li {
+     display: inline;
+     padding: 10px;  
+  }
+
+.list-inline i { 
+	font-size: 35px;
+ }
+
+ .list-inline i:hover { 
+	color: #B7657B; 
+ }
+
+ .list-inline1 li {
+ 	list-style: none;
+ 	line-height: 30px;
+ }
+
+ .list-inline2 li {
+ 	list-style: none;
+ 	line-height: 30px;
+ }
+
+  .list-inline3 li {
+ 	list-style: none;
+ 	line-height: 30px;
+ }
+
+ #introduction p { 
+ 	margin-bottom: 40px;
+  }
